@@ -4,7 +4,7 @@ from typing import List
 import uuid
 from pathlib import Path
 
-from ...store.database import DocumentStore
+from ..store.database import DocumentStore
 
 router = APIRouter()
 

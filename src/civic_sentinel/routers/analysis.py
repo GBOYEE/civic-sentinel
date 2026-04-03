@@ -3,10 +3,10 @@ from fastapi import APIRouter, HTTPException
 from typing import Dict, List
 import uuid
 
-from ...store.database import DocumentStore, AnalysisStore
-from ...services.llava_analysis import LLaVAAnalysis
-from ...services.nlp_pipeline import NLPPipeline
-from ...services.graph_builder import GraphBuilder
+from ..store.database import DocumentStore, AnalysisStore
+from ..services.llava_analysis import LLaVAAnalysis
+from ..services.nlp_pipeline import NLPPipeline
+from ..services.graph_builder import GraphBuilder
 
 router = APIRouter()
 

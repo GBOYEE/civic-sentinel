@@ -1,6 +1,6 @@
 """NLP pipeline using NLTK/spaCy or Ollama."""
 import logging
-from typing import Dict, List
+from typing import Dict, List, Any
 
 logger = logging.getLogger("civic_sentinel.nlp")
 
